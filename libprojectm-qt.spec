@@ -1,11 +1,11 @@
 %define oname projectM-qt
 
-%define devellibname %mklibname -d projectm-qt
-%define libname %mklibname projectm-qt
+%define devellibname %mklibname -d projectM-qt
+%define libname %mklibname projectM-qt
 
 
-%rename		projectm-qt
 Name:		libprojectm-qt
+%rename		projectm-qt
 Version:	2.1.0
 Release:	1
 Summary:	The Qt frontend to the projectM visualization plugin
