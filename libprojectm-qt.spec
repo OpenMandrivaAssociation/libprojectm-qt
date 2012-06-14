@@ -12,8 +12,7 @@ Group:		System/Libraries
 License:	GPLv2+
 URL:		http://projectm.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/project/projectm/%{version}/%{oname}-%{version}-Source.tar.gz
-BuildRequires:	cmake qt4-devel
-# pkgconfig(libprojectM) = %{version}
+BuildRequires:	cmake qt4-devel pkgconfig(libprojectM) = %{version}
 Patch0:		libsuffix.patch
 
 %description
