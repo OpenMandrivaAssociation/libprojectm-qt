@@ -4,7 +4,7 @@
 %define libname %mklibname projectm-qt
 
 
-Name:		libprojectm-qt
+Name:		projectm-qt
 Version:	2.1.0
 Release:	1
 Summary:	The Qt frontend to the projectM visualization plugin
