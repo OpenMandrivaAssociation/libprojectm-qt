@@ -4,6 +4,7 @@
 %define libname %mklibname projectm-qt
 
 
+%rename		projectm-qt
 Name:		libprojectm-qt
 Version:	2.1.0
 Release:	1
