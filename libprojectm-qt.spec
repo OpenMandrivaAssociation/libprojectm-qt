@@ -11,7 +11,7 @@ Release:	1
 Summary:	The Qt frontend to the projectM visualization plugin
 Group:		System/Libraries
 License:	GPLv2+
-URL:		http://projectm.sourceforge.net/
+URL:		https://projectm.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/project/projectm/%{version}/%{oname}-%{version}-Source.tar.gz
 BuildRequires:	cmake qt4-devel pkgconfig(libprojectM) = %{version}
 Patch0:		libsuffix.patch
